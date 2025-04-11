@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    background:#f4f4f4;
+  }
+  
+  h1{
+    text-align: center;
+    font-style:initial;
+    font-weight:bold;
+  }
+ .Login{
+   
+      padding: 60px 70px;
+      background: white;
+      border: 1px solid #e6e6e6;
+      
+     width: 100%;
+     max-width: 300px;
+     margin: 60px auto;
+      
+  }
+ label {
+    margin: bottom 10px;
+    font-weight: 400;
+    font-style:inherit;
+ }
+ * {
+    box-sizing: border-box;
+  }
+button{
+    float: right;
+
+}
+.remember-forget label {
+    font-size:x-small;
+}
